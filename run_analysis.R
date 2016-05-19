@@ -96,5 +96,5 @@
 
 ## Write the two created tidy dataframes to respective files  
     
-  write.csv(TidiedTrainTestData, "TidiedTrainTestData")
-  write.csv(summary, "summary")
+  write.table(TidiedTrainTestData, "TidiedTrainTestData", row.name = FALSE)
+  write.table(summary, "summary", row.name = FALSE)
