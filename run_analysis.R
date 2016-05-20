@@ -6,13 +6,9 @@
 ## mean of involved colums per subject-activity combination
 ## Both files are printed and written as CSV files
   
-  install.packages("reshape2", repos = "https://cran.cnr.Berkeley.edu/")
-  install.packages("dplyr", repos = "https://cran.cnr.Berkeley.edu/")
   library(reshape2)
   library(dplyr)
   
-  setwd("/users/ActuarieelAdvies/documents/CourseraGettingCleaningData/Assignment")
-
 ## Read activity names   
   
   ActivityNames <- read.table("Activity_labels.txt")
